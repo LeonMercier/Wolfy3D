@@ -6,7 +6,7 @@
 /*   By: maheleni <maheleni@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/01 15:04:23 by lemercie          #+#    #+#             */
-/*   Updated: 2025/03/19 15:47:23 by maheleni         ###   ########.fr       */
+/*   Updated: 2025/07/05 12:22:06 by lemercie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,15 +19,15 @@
 # include <errno.h>
 
 // how many radians to turn on one keypress
-const static double	g_cam_turn_speed = 0.04;
+static const double	g_cam_turn_speed = 0.04;
 // how many tiles to walk on one keypress
-const static double	g_player_walk_speed = 0.1;
+static const double	g_player_walk_speed = 0.1;
 // field-of-view
-const static double	g_fov = 0.66;
+static const double	g_fov = 0.66;
 // max map width
-const static int	g_max_map_width = 500;
+static const int	g_max_map_width = 500;
 // max map height
-const static int	g_max_map_height = 500;
+static const int	g_max_map_height = 500;
 
 enum e_errors
 {
