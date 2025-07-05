@@ -1,4 +1,4 @@
-# Cub3D
+# Wolfy3D
 A raycasting game in the style of Wolfenstein3D
 
 ![Screenshot](./screenshot.png)
