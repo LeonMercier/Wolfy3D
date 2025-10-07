@@ -1,5 +1,5 @@
 # Wolfy3D
-A raycasting game in the style of Wolfenstein3D
+A raycasting game in the style of Wolfenstein3D. This was a group project with [Maria Aallotar](https://github.com/mariaaallotar). 
 
 ![Screenshot](./screenshot.png)
 
